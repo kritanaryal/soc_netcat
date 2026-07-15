@@ -456,7 +456,7 @@ From the Kali Linux virtual machine, initiate a TCP connection to the Windows li
 ## Command
 
 ```bash
-nc -v 192.168.56.107 4444
+nc 192.168.56.107 4444
 ```
 
 > Replace the IP address if your Windows VM uses a different address.
@@ -1548,11 +1548,6 @@ Because only the request line was transmitted, the web server detected an incomp
 
 This behavior is expected and confirms that the server is correctly validating the HTTP request format.
 
-### Evidence
-
-**Figure 5.1 – Initial HTTP request resulting in a 400 Bad Request**
-
-> `screenshots/phase-5/01-http-400.png`
 
 ---
 
@@ -1599,7 +1594,7 @@ The response confirms that the web server successfully processed the request.
 
 **Figure 5.2 – Successful HTTP response (200 OK) from OWASP Juice Shop**
 
-> `screenshots/phase-5/02-http-200.png`
+> `screenshots/phase-5/01-http-200.png`
 
 ---
 
