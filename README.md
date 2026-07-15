@@ -445,7 +445,7 @@ The listener waits silently until a client initiates a connection.
 
 **Figure 1.1 – Windows 11 waiting for incoming TCP connections**
 
-> `screenshots/phase-1/01-listener-started.png`
+> (screenshots/phase-1/01-listener-started.png)
 
 ---
 
@@ -486,7 +486,7 @@ This confirms:
 
 **Figure 1.2 – Kali Linux successfully connected to the Windows listener**
 
-> `screenshots/phase-1/02-client-connected.png`
+> [Screenshot](screenshots/phase-1/02-client-connected.png)
 
 ---
 
@@ -520,7 +520,7 @@ The successful exchange of messages confirms that:
 
 **Figure 1.3 – Successful bidirectional communication between Kali Linux and Windows 11**
 
-> `screenshots/phase-1/03-message-exchange.png`
+> [Screenshot](screenshots/phase-1/03-message-exchange.png)
 ---
 
 ## Verification Checklist
@@ -737,7 +737,7 @@ This file demonstrates TCP file transfer using Netcat.
 
 **Figure 2.1 – Sample file created on Kali Linux**
 
-> `screenshots/phase-2/01-create-sample-file.png`
+> [Screenshot](screenshots/phase-2/01-create-sample-file.png)
 
 ---
 
@@ -767,7 +767,7 @@ The listener will wait silently until the sender connects.
 
 **Figure 2.2 – Windows waiting to receive the file**
 
-> `screenshots/phase-2/02-listener.png`
+> [Screenshot](screenshots/phase-2/02-listener.png)
 
 ---
 
@@ -796,7 +796,7 @@ After the transfer completes, Netcat automatically closes the connection.
 
 **Figure 2.3 – File successfully transmitted**
 
-> `screenshots/phase-2/03-file-transfer.png`
+> [Screenshot](screenshots/phase-2/03-file-transfer.png)
 
 ---
 
@@ -823,7 +823,7 @@ This file demonstrates TCP file transfer using Netcat.
 
 **Figure 2.4 – File successfully received**
 
-> `screenshots/phase-2/04-received-file.png`
+> [Screenshot](screenshots/phase-2/04-received-file.png)
 
 ---
 
@@ -857,7 +857,7 @@ Matching hash values confirm:
 
 **Figure 2.5 – SHA-256 hash verification**
 
-> `screenshots/phase-2/05-sha256-verification.png`
+> [Screenshot](screenshots/phase-2/05-sha256-verification.png)
 
 ---
 
@@ -1025,7 +1025,7 @@ This command scans TCP ports **20 through 1000** on the Metasploitable2 virtual 
 
 **Figure 3.1 – TCP port scan of Metasploitable2**
 
-> `screenshots/phase-3/01-metasploitable-range-scan.png`
+> [Screenshot](screenshots/phase-3/01-metasploitable-range-scan.png)
 
 ---
 
@@ -1053,7 +1053,7 @@ Checks whether the MySQL database service is accepting TCP connections.
 
 **Figure 3.2 – MySQL service verification**
 
-> `screenshots/phase-3/02-mysql-port.png`
+> [Screenshot](screenshots/phase-3/02-mysql-port.png)
 
 ---
 
@@ -1080,7 +1080,7 @@ These services are commonly used by Windows for remote administration and file s
 
 **Figure 3.3 – Windows service scan**
 
-> `screenshots/phase-3/03-windows-range-scan.png`
+> [Screenshot](screenshots/phase-3/03-windows-range-scan.png)
 
 ---
 
@@ -1113,7 +1113,7 @@ Port **445** hosts the Server Message Block (SMB) protocol, which is widely used
 
 **Figure 3.4 – SMB service verification**
 
-> `screenshots/phase-3/04-smb-port.png`
+> [Screenshot](screenshots/phase-3/04-smb-port.png)
 
 ---
 
@@ -1143,7 +1143,7 @@ The successful connection confirms that the HTTP service is running and ready fo
 
 **Figure 3.5 – OWASP Juice Shop service verification**
 
-> `screenshots/phase-3/05-juice-shop-port.png`
+> [Screenshot](screenshots/phase-3/05-juice-shop-port.png)
 
 ---
 
@@ -1306,7 +1306,7 @@ The banner identifies:
 
 **Figure 4.1 – FTP banner returned by the server**
 
-> `screenshots/phase-4/01-ftp-banner.png`
+> [Screenshot](screenshots/phase-4/01-ftp-banner.png)
 
 ---
 
@@ -1349,7 +1349,7 @@ This occurs because Netcat is not an SSH client. After reading the banner, it se
 
 **Figure 4.2 – SSH banner returned by the server**
 
-> `screenshots/phase-4/02-ssh-banner.png`
+> [Screenshot](screenshots/phase-4/02-ssh-banner.png)
 
 ---
 
@@ -1383,7 +1383,7 @@ The returned banner identifies:
 
 **Figure 4.3 – SMTP banner returned by the server**
 
-> `screenshots/phase-4/03-smtp-banner.png`
+> [Screenshot](screenshots/phase-4/03-smtp-banner.png)
 
 ---
 
@@ -1594,7 +1594,7 @@ The response confirms that the web server successfully processed the request.
 
 **Figure 5.2 – Successful HTTP response (200 OK) from OWASP Juice Shop**
 
-> `screenshots/phase-5/01-http-200.png`
+> [Screenshot](screenshots/phase-5/01-http-200.png)
 
 ---
 
