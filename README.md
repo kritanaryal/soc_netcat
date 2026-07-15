@@ -71,17 +71,28 @@ This project demonstrates practical experience with:
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Objectives](#objectives)
-- [Skills Demonstrated](#skills-demonstrated)
+- [Learning Objectives](#learning-objectives)
+- [Key Features](#key-features)
 - [Lab Environment](#lab-environment)
 - [Network Topology](#network-topology)
 - [Repository Structure](#repository-structure)
 - [Project Phases](#project-phases)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Learning Outcomes](#learning-outcomes)
+- [Hands-on Laboratory Exercises](#hands-on-laboratory-exercises)
+  - [Phase 1 – TCP Client-Server Communication](#phase-1--tcp-client-server-communication)
+  - [Phase 2 – File Transfer Using Netcat](#phase-2--file-transfer-using-netcat)
+  - [Phase 3 – Zero-I/O Port Scanning Using Netcat](#phase-3--zero-io-port-scanning-using-netcat)
+  - [Phase 4 – Banner Grabbing & Service Enumeration](#phase-4--banner-grabbing--service-enumeration)
+  - [Phase 5 – HTTP Request Testing Using Netcat](#phase-5--http-request-testing-using-netcat)
+- [Project Summary](#project-summary)
+- [Technical Skills Demonstrated](#technical-skills-demonstrated)
+- [Key Learning Outcomes](#key-learning-outcomes)
+- [Challenges Encountered and Solutions](#challenges-encountered-and-solutions)
+- [Practical Applications](#practical-applications)
+- [Future Enhancements](#future-enhancements)
 - [References](#references)
-
+- [Conclusion](#conclusion)
+- [Acknowledgements](#acknowledgements)
+- [Connect With Me](#connect-with-me)
 ---
 
 # Lab Environment
@@ -326,44 +337,6 @@ Each phase includes:
 - **Key Takeaways** – Important concepts learned during the exercise.
 
 The laboratory was performed in an isolated VirtualBox Host-Only network using Kali Linux, Windows 11, Metasploitable2, and OWASP Juice Shop. All commands, outputs, and screenshots presented in this repository were generated during the execution of this lab.
-
----
-
-# Phase 1 – TCP Client-Server Communication
-
-## Objective
-
-The objective of this exercise is to establish a basic **Transmission Control Protocol (TCP)** client-server connection using **Netcat**. This exercise demonstrates how a TCP listener accepts incoming connections and how a client initiates communication with the listener. It also provides a practical understanding of socket-based communication, bidirectional data exchange, and the TCP connection lifecycle.
-
----
-
-## Background Theory
-
-TCP is a **connection-oriented** transport layer protocol that provides reliable communication between two hosts. Before any data is exchanged, TCP establishes a connection using the **Three-Way Handshake**:
-
-1. **SYN** – The client requests to establish a connection.
-2. **SYN-ACK** – The server acknowledges the request.
-3. **ACK** – The client confirms the acknowledgment.
-
-Once the handshake is complete, both systems can exchange data until either side terminates the connection.
-
-In this exercise:
-
-- **Windows 11** acts as the **TCP Server (Listener)**.
-- **Kali Linux** acts as the **TCP Client**.
-
----
-
-## Lab Environment
-
-| Component | Details |
-|----------|---------|
-| Protocol | TCP |
-| Port | 4444 |
-| Listener | Windows 11 Virtual Machine |
-| Client | Kali Linux Virtual Machine |
-| Tool | Netcat (Ncat on Windows, nc on Kali) |
-| Network | VirtualBox Host-Only Network |
 
 ---
 
