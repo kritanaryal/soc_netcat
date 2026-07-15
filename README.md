@@ -1,98 +1,70 @@
-# Netcat (Ncat) for SOC Analysts
+# Netcat (nc) Networking Lab – A Practical Guide to TCP Communication, Service Enumeration, and Network Troubleshooting
 
-## Overview
+> A hands-on networking laboratory demonstrating the practical use of **Netcat (nc)** for TCP communication, file transfer, port scanning, banner grabbing, HTTP protocol testing, and network troubleshooting in a virtualized lab environment.
 
-This repository demonstrates practical Netcat usage from a Security Operations Center perspective.
+![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue)
+![Windows](https://img.shields.io/badge/Windows-11-0078D6)
+![Juice Shop](https://img.shields.io/badge/Juice_Shop-17.1.1-F49C12)
+![Metasploitable2](https://img.shields.io/badge/Metasploitable2-Lab-red)
+![Tool](https://img.shields.io/badge/Tool-Netcat-success)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-Topics include:
-
-- Banner grabbing
-- TCP troubleshooting
-- Firewall validation
-- Service verification
-- Network debugging
 
 ---
 
-## Tool Overview
+# Project Overview
 
-Netcat (Ncat) is a networking utility used to read and write data across TCP and UDP connections.
+Netcat (commonly known as **nc**) is one of the most versatile networking utilities available for Linux and Unix-like operating systems. Due to its flexibility in creating, reading, and writing TCP and UDP connections, it is widely recognized as the **"Swiss Army Knife of Networking."**
 
----
+This project demonstrates the practical use of Netcat in a controlled virtual laboratory environment to understand how TCP communication works at the socket level. Rather than focusing on offensive techniques, the project emphasizes networking fundamentals, service verification, protocol analysis, and troubleshooting skills that are directly applicable to **Security Operations Center (SOC)**, **Blue Team**, **Network Administration**, and **IT Support** roles.
 
-## Features
+The laboratory exercises cover the complete workflow of establishing TCP connections, transferring files, verifying service availability, identifying network services through banner grabbing, manually interacting with HTTP servers, and troubleshooting connectivity issues using Netcat.
 
-- Practical SOC examples
-- Bash automation
-- Python wrappers
-- Troubleshooting guides
-- Cheatsheets
+Each phase includes:
 
----
-
-## Prerequisites
-
-- Linux
-- Nmap/Ncat
-- Bash
-- Python 3
-
-Install
-
-```bash
-sudo apt install netcat-openbsd
-```
-
-or
-
-```bash
-sudo apt install ncat
-```
+- Objective
+- Theory
+- Commands Executed
+- Expected Output
+- Actual Output
+- Technical Explanation
+- Troubleshooting Notes
+- Screenshots
+- Key Takeaways
 
 ---
 
-## Usage
+# Objectives
 
-Check port
+The primary objectives of this project are to:
 
-```bash
-nc -vz 192.168.1.5 443
-```
-
-Banner grabbing
-
-```bash
-nc 192.168.1.5 80
-```
-
----
-
-## Repository Structure
-
-```text
-docs/
-scripts/
-examples/
-screenshots/
-```
+- Understand TCP client-server communication.
+- Learn how Netcat creates TCP and UDP connections.
+- Demonstrate manual file transfer over TCP.
+- Perform service verification using Zero-I/O port scanning.
+- Identify network services through banner grabbing.
+- Manually construct and analyze HTTP requests.
+- Develop practical troubleshooting techniques for common network connectivity issues.
+- Document each exercise in a professional and reproducible manner suitable for technical portfolios.
 
 ---
 
-## Security Warning
+# Skills Demonstrated
 
-⚠ Use only in systems you own or are authorized to test.
+This project demonstrates practical experience with:
 
-Unauthorized network testing may violate laws or organizational policies.
+- TCP Socket Communication
+- Client-Server Architecture
+- File Transfer over TCP
+- Zero-I/O Port Scanning
+- Banner Grabbing
+- Service Enumeration
+- HTTP Request Construction
+- HTTP Response Analysis
+- Network Troubleshooting
+- Connectivity Verification
+- Basic Protocol Analysis
+- Technical Documentation
+- GitHub Project Documentation
 
 ---
-
-## References
-
-Official documentation
-
-Nmap Project
-
-RFCs
-
----
-
