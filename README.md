@@ -132,7 +132,6 @@ The repository is organized to provide a clear separation between documentation,
 netcat-networking-lab/
 │
 ├── README.md                          # Complete project documentation
-├── LICENSE                            # MIT License
 ├── .gitignore                         # Git ignore rules
 │
 ├── screenshots/
@@ -142,11 +141,6 @@ netcat-networking-lab/
 │   ├── phase-4-banner-grabbing/
 │   ├── phase-5-http-testing/
 │   └── phase-6-network-troubleshooting/
-│
-└── assets/
-    ├── network-topology.png
-    ├── tcp-three-way-handshake.png
-    └── osi-model-reference.png
 ```
 
 ### Repository Contents
