@@ -143,7 +143,6 @@ The repository is organized to provide a clear separation between documentation,
 netcat-networking-lab/
 │
 ├── README.md                          # Complete project documentation
-├── LICENSE                            # Project license
 ├── .gitignore                         # Git ignore rules
 │
 ├── screenshots/
