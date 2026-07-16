@@ -759,7 +759,7 @@ nc 192.168.56.102 5555 < sample.txt
 | Parameter | Description |
 |-----------|-------------|
 | `nc` | Launch Netcat |
-| `192.168.56.102` | Windows 11 IP Address |
+| `192.168.56.107` | Windows 11 IP Address |
 | `5555` | Destination TCP Port |
 | `< sample.txt` | Redirect file contents into the TCP connection |
 
@@ -1816,16 +1816,5 @@ Thanks to the open-source tools and projects that made this lab possible:
 - Metasploitable2
 - OWASP Juice Shop
 
----
 
-# Connect With Me
-
-If you have feedback on this project or just want to connect, feel free to reach out:
-
-- **GitHub:** [your-github-username](https://github.com/your-github-username)
-- **LinkedIn:** [your-linkedin-profile](https://linkedin.com/in/your-linkedin-profile)
-- **Email:** your.email@example.com
-
-> Replace the placeholders above with your actual profile links before publishing.
-
----
+    
