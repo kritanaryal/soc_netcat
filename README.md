@@ -9,6 +9,8 @@
 ![Tool](https://img.shields.io/badge/Tool-Netcat-success)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
+### 📝 Why I built this
+I created this lab to go beyond "click-and-see" tools and truly understand what happens on the wire. By using Netcat to manually handle TCP connections, file transfers, and HTTP requests, I’ve built a solid foundation for the diagnostic work required in a SOC environment. I wanted to peel back the layers to see how network traffic actually behaves, rather than just relying on automated reports. 
 
 ---
 
